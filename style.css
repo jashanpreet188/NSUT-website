@@ -1,6 +1,7 @@
 .imgslide{
     width:100%;
-    height:100%;
+    height:900px;
+    /* height:100%; */
     background-image: url("./images/admission.png");
     background-size:100% 100%;
     animation-name:changeimg ; 
@@ -32,6 +33,7 @@ body{
     height:100vh;
     margin: 0px;
     padding: 0px;
+    font-family: 'Poppins', sans-serif;
     
 }
 .heading{
@@ -71,9 +73,67 @@ body{
     font-size: 30px;
 
 }
+.rotate{
+    transition: transform 1s;
+    transition-timing-function: ease-in-out;
+}
+.rotate:hover{
+    transform: rotateY(360deg);
+}
 .nsut{
     color: rgba(31, 7, 4, 0.919);
 }
 .address{
-    color:rgba(31, 7, 4, 0.919) ;
+    /* color:rgba(31, 7, 4, 0.919) ; */
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
 }
+.address a{
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    font-weight: 900;
+}
+.address a:hover{
+    text-decoration: underline;
+    /* color: rgb(128, 125, 125); */
+}
+.address .loc-icon{
+    font-size: 45px;
+    margin-left: 5px;
+}
+.About-NSUT{
+    display: flex;
+    flex-direction: column;
+}
+.About-NSUT h1{
+   margin: 20px;
+   /* text-decoration: underline; */
+   font-size: 2.5rem;
+   letter-spacing: 5px;
+}
+.About-NSUT .under{
+    text-decoration: underline;
+}
+.About-NSUT p{
+    width: 75%;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+.btn-Know-more{
+    width: 102px;
+    height: 35px;
+    border: 1.5px solid black;
+    padding: 5px;
+    margin-left: 20px;
+    background-color: rgb(230, 213, 246);
+    font-weight: bold;
+}
+.btn-Know-more:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
