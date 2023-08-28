@@ -13,9 +13,7 @@ Welcome to our college - Netaji Subhas University of Technology, Delhi. We've cr
 - Interactive gallery of campus images.
 
 ## How to install?
-- Clone the repository:
-``` git clone "https://github.com/jashanpreet188/NSUT-website.git"
-```
+- Clone the repository: ```git clone https://github.com/jashanpreet188/NSUT-website.git```
 - Navigate to the project diretory:
 ```cd nsut-website```
 - Open the "index.html" file in the web browser. 
