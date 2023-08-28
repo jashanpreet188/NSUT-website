@@ -1,0 +1,79 @@
+.imgslide{
+    width:100%;
+    height:100%;
+    background-image: url("./images/admission.png");
+    background-size:100% 100%;
+    animation-name:changeimg ; 
+    animation-iteration-count:infinite;
+    opacity: 80%;
+    animation-delay: 5s;
+    animation-duration: 20s;
+}
+@keyframes changeimg{
+    0%{
+        background-image: url("./images/WhatsApp\ Image\ 2023-08-27\ at\ 12.35.09.jpg");
+    }
+    25%{
+        background-image: url("./images/WhatsApp\ Image\ 2023-08-27\ at\ 11.51.25.jpg");
+    }
+    50%{
+        background-image: url("./images/WhatsApp\ Image\ 2023-08-27\ at\ 11.52.37.jpg");
+    }
+    75%{
+        background-image: url("./images/WhatsApp\ Image\ 2023-08-27\ at\ 11.52.58.jpg");
+    }
+    100%{
+        background-image: url("./images/WhatsApp\ Image\ 2023-08-27\ at\ 12.35.09.jpg");
+    }
+}
+body{
+    display:grid;
+    width:100%;
+    height:100vh;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.heading{
+    display: flex;
+    gap:5px;
+    background-color:blue ;
+    color:white;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+    
+}
+.heading a{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+.heading2{
+    display:flex;
+    gap:6px;
+    height: 80px;
+    justify-content: space-evenly;
+
+}
+.heading2 img{
+    height: 60px;
+    border-radius: 50%;
+    
+}
+.twodiv{
+    display: flex;
+    gap:0;
+}
+
+.nsut span{
+    font-style: bold;
+    font-size: 30px;
+
+}
+.nsut{
+    color: rgba(31, 7, 4, 0.919);
+}
+.address{
+    color:rgba(31, 7, 4, 0.919) ;
+}
