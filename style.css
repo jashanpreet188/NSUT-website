@@ -73,11 +73,11 @@ body{
     font-size: 30px;
 
 }
-.rotate{
+/* .rotate{
+} */
+.rotate:hover{
     transition: transform 1s;
     transition-timing-function: ease-in-out;
-}
-.rotate:hover{
     transform: rotateY(360deg);
 }
 .nsut{
@@ -136,4 +136,325 @@ body{
     background-color: black;
     cursor: pointer;
 }
+
+
+.aboutus{
+    position:relative;
+    display: inline-block;
+}
+
+.aboutusspan{
+color:black;
+cursor:pointer;
+}
+
+.dropaboutus{
+    display: none; 
+    position: absolute;
+   background-color:white;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* z-index: -1; */
+
+}
+
+.dropaboutus a{
+    color:black;
+padding:5px ;
+text-decoration: none;
+display: block;
+}
+
+.dropaboutus a:hover {
+    background-color:black;
+    font-weight: 400;
+    color:white ;
+    display: flex;
+
+}
+
+.aboutus:hover .dropaboutus {
+    display: block;
+  }
+  
+  .aboutus:hover .aboutusspan {
+    background-color: #f1f1f1;
+  }
+
+
+.administration{
+    position:relative;
+    display: inline-block;
+}
+
+.administrationspan{
+color:black;
+cursor:pointer;
+}
+
+.dropadministration{
+    display: none; 
+    position: absolute;
+   background-color:white;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* z-index: -1; */
+
+}
+
+.dropadministration a{
+    color:black;
+padding:5px ;
+text-decoration: none;
+display: block;
+}
+
+.dropadministration a:hover {
+    background-color:black;
+    font-weight: 400;
+    color:white ;
+    display: flex;
+
+}
+
+.administration:hover .dropadministration {
+    display: block;
+  }
+  
+  .administration:hover .administrationspan {
+    background-color: #f1f1f1;
+}
+
+.academics{
+    position:relative;
+    display: inline-block;
+}
+
+.academicsspan{
+color:black;
+cursor:pointer;
+}
+
+.dropacademics{
+    display: none; 
+    position: absolute;
+   background-color:white;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* z-index: -1; */
+
+}
+
+.dropacademics a{
+    color:black;
+padding:5px ;
+text-decoration: none;
+display: block;
+}
+
+.dropacademics a:hover {
+    background-color:black;
+    font-weight: 400;
+    color:white ;
+    display: flex;
+
+}
+
+.academics:hover .dropacademics {
+    display: block;
+  }
+  
+  .academics:hover .academicsspan {
+    background-color: #f1f1f1;
+  }
+
+
+
+
+
+
+
+
+.dropadmissions a{
+    color:black;
+padding:5px ;
+text-decoration: none;
+display: block;
+}
+
+.dropadmissions a:hover {
+    background-color:black;
+    font-weight: 400;
+    color:white ;
+    display: flex;
+
+}
+
+.admissions:hover .dropadmissions {
+    display: block;
+  }
+  
+  .admissions:hover .admissionsspan {
+    background-color: #f1f1f1;
+}
+.alumni{
+    position:relative;
+    display: inline-block;
+}
+
+.alumnispan{
+color:black;
+cursor:pointer;
+}
+
+.dropalumni{
+    display: none; 
+    position: absolute;
+   background-color:white;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* z-index: -1; */
+
+}
+
+.dropalumni a{
+    color:black;
+padding:5px ;
+text-decoration: none;
+display: block;
+}
+
+.dropalumni a:hover {
+    background-color:black;
+    font-weight: 400;
+    color:white ;
+    display: flex;
+
+}
+
+.alumni:hover .dropalumni {
+    display: block;
+  }
+  
+  .alumni:hover .alumnispan {
+    background-color: #f1f1f1;
+}
+.student{
+    position:relative;
+    display: inline-block;
+}
+
+.studentspan{
+color:black;
+cursor:pointer;}
+
+.dropstudent{
+    display: none; 
+    position: absolute;
+   background-color:white;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* z-index: -1; */
+
+}
+
+.dropstudent a{
+    color:black;
+padding:5px ;
+text-decoration: none;
+display: block;
+}
+
+.dropstudent a:hover {
+    background-color:black;
+    font-weight: 400;
+    color:white ;
+    display: flex;
+
+}
+
+.student:hover .dropstudent {
+    display: block;
+  }
+  
+  .student:hover .studentspan {
+    background-color: #f1f1f1;
+}
+.resources{
+    position:relative;
+    display: inline-block;
+}
+.resourcesspan{
+color:black;
+cursor:pointer;
+}
+.dropresources{
+    display: none; 
+    position: absolute;
+   background-color:white;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* z-index: -1; */
+
+}
+.dropresources a{
+    color:black;
+padding:5px ;
+text-decoration: none;
+display: block;
+}
+.dropresources a:hover {
+    background-color:black;
+    font-weight: 400;
+    color:white ;
+    display: flex;
+
+}
+.resources:hover .dropresources {
+    display: block;
+  }
+  
+  .resources:hover .resourcesspan {
+    background-color: #f1f1f1;
+}
+.research{
+    position:relative;
+    display: inline-block;
+}
+.researchspan{
+color:black;
+cursor:presearch
+}
+.dropresearch{
+    display: none; 
+    position: absolute;
+   background-color:white;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* z-index: -1; */
+
+}
+.dropresearch a{
+    color:black;
+padding:5px ;
+text-decoration: none;
+display: block;
+}
+.dropresearch a:hover {
+    background-color:black;
+    font-weight: 400;
+    color:white ;
+    display: flex;
+
+}
+.research:hover .dropresearch {
+    display: block;
+  }
+  
+  .research:hover .researchspan {
+    background-color: #f1f1f1;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(144, 150, 148);
+}
+.heading{
+    position:sticky;
+}
+
+
 
