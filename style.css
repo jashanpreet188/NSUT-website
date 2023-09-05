@@ -1,7 +1,6 @@
 .imgslide{
     width:100%;
     height:900px;
-    /* height:100%; */
     background-image: url("./images/admission.png");
     background-size:100% 100%;
     animation-name:changeimg ; 
@@ -73,12 +72,17 @@ body{
     font-size: 30px;
 
 }
-/* .rotate{
-} */
+/*rotate*/
 .rotate:hover{
     transition: transform 1s;
     transition-timing-function: ease-in-out;
     transform: rotateY(360deg);
+}
+
+#g20{
+    height: 88px;
+    width: 157px;
+    border-radius: 10%;
 }
 .nsut{
     color: rgba(31, 7, 4, 0.919);
@@ -104,6 +108,47 @@ body{
     font-size: 45px;
     margin-left: 5px;
 }
+
+/* NAV-GEET */
+.nav-geet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-updates{
+    background-color: rgb(240, 212, 178);
+    padding: 14px;
+    /* color: white; */
+    height: 16px;
+    z-index: 4;
+}
+marquee{
+    
+    /* color: white; */
+    font-weight: 600;
+    width: 850px;
+    z-index: 4;
+    /* font-size: 2rem; */
+}
+.nav-kulgeet{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-kulgeet p{
+    font-size: larger;
+    color:rgb(14, 14, 14);
+    margin: 0px 10px;
+    font-weight: bold;
+    font-size: 16px;
+    /* background: linear-gradient(red, #fbfbfb); */
+    /* -webkit-text-fill-color: transparent; */
+}
+.nav-kulgeet audio{
+    height: 25px;
+    width: 260px;
+}
+
 .About-NSUT{
     display: flex;
     flex-direction: column;
@@ -177,8 +222,8 @@ display: block;
   }
   
   .aboutus:hover .aboutusspan {
-    background-color: #f1f1f1;
-  }
+    background-color:#f1f1f1;
+}
 
 
 .administration{
@@ -219,8 +264,8 @@ display: block;
     display: block;
   }
   
-  .administration:hover .administrationspan {
-    background-color: #f1f1f1;
+.administration:hover .administrationspan {
+    background-color:#f1f1f1;
 }
 
 .academics{
@@ -244,9 +289,9 @@ cursor:pointer;
 
 .dropacademics a{
     color:black;
-padding:5px ;
-text-decoration: none;
-display: block;
+    padding:5px ;
+    text-decoration: none;
+    display: block;
 }
 
 .dropacademics a:hover {
@@ -259,18 +304,11 @@ display: block;
 
 .academics:hover .dropacademics {
     display: block;
-  }
+}
   
   .academics:hover .academicsspan {
-    background-color: #f1f1f1;
-  }
-
-
-
-
-
-
-
+    background-color:#f1f1f1;
+}
 
 .dropadmissions a{
     color:black;
@@ -292,7 +330,7 @@ display: block;
   }
   
   .admissions:hover .admissionsspan {
-    background-color: #f1f1f1;
+    background-color:#f1f1f1;
 }
 .alumni{
     position:relative;
@@ -333,7 +371,7 @@ display: block;
   }
   
   .alumni:hover .alumnispan {
-    background-color: #f1f1f1;
+    background-color:#f1f1f1;
 }
 .student{
     position:relative;
@@ -373,15 +411,15 @@ display: block;
   }
   
   .student:hover .studentspan {
-    background-color: #f1f1f1;
+    background-color:#f1f1f1;
 }
 .resources{
     position:relative;
     display: inline-block;
 }
 .resourcesspan{
-color:black;
-cursor:pointer;
+    color:black;
+    cursor:pointer;
 }
 .dropresources{
     display: none; 
@@ -393,9 +431,9 @@ cursor:pointer;
 }
 .dropresources a{
     color:black;
-padding:5px ;
-text-decoration: none;
-display: block;
+    padding:5px ;
+    text-decoration: none;
+    display: block;
 }
 .dropresources a:hover {
     background-color:black;
@@ -409,29 +447,29 @@ display: block;
   }
   
   .resources:hover .resourcesspan {
-    background-color: #f1f1f1;
+    background-color:#f1f1f1;
 }
 .research{
     position:relative;
     display: inline-block;
 }
 .researchspan{
-color:black;
-cursor:presearch
+    color:black;
+    cursor:presearch
 }
 .dropresearch{
     display: none; 
     position: absolute;
-   background-color:white;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color:white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   /* z-index: -1; */
 
 }
 .dropresearch a{
     color:black;
-padding:5px ;
-text-decoration: none;
-display: block;
+    padding:5px ;
+    text-decoration: none;
+    display: block;
 }
 .dropresearch a:hover {
     background-color:black;
@@ -445,7 +483,7 @@ display: block;
   }
   
   .research:hover .researchspan {
-    background-color: #f1f1f1;
+    background-color:#f1f1f1;
 }
 .navbar{
     display: flex;
@@ -454,6 +492,105 @@ display: block;
 }
 .heading{
     position:sticky;
+}
+
+
+/* Content */
+.Departments{
+    margin: 10% 0;
+    background-color: rgb(252, 241, 226);
+    color:#141E46;
+    text-align: center;
+}
+.img1{
+    background-image: url("../images/dep-faculty.png");
+}
+.img2{
+    background-image: url("../images/dep-academic.png");
+}
+.img3{
+    background-image: url("../images/dep-center.png");
+}
+
+.imga{
+    background-image: url("../images/phd.jpeg");
+}
+.imgb{
+    background-image: url(../images/ug.jpeg);
+}
+.imgc{
+    background-image: url("../images/pg.jpg");
+    
+}
+.dept-img{
+    background-repeat: no-repeat;
+    background-size: cover;  
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: auto;
+    
+}
+.dept-info{
+    font-family:'Nunito', sans-serif;
+    font-weight: 900;
+}
+.custom-btn{
+    position: relative;
+    margin-bottom: 10%;
+    border: 5px white solid;
+}
+
+.admissions{
+    list-style:square;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    font-size: 16.5px;
+}
+.admissions a{
+    text-decoration: none;
+    line-height: 2;
+    color:rgba(39, 21, 1, 0.897)
+}
+.admissions a:visited{
+    color: rgb(227, 20, 54);
+}
+.admissions a:hover{
+    color: #141E46;
+    /* text-decoration: underline; */
+}
+
+/* FOOTER */
+.footer{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:rgb(86, 86, 147);
+    color:white;
+    margin-top: 50px;
+    text-decoration:none;
+
+}
+.footer ul{
+    margin: 30px;
+    text-align:center;
+    color: aliceblue;
+    font-weight: 100;
+}
+.footer li {
+    list-style: none;
+    margin:10px;
+    
+}
+.footer a{
+    text-decoration:none;
+    color: aliceblue;
+}
+
+.head2{
+    text-align: center;
 }
 
 

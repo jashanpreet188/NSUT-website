@@ -57,29 +57,29 @@ font-weight: 100;
     list-style: none;
     margin:10px;
     text-decoration:none;
-color: aliceblue;
+    color: aliceblue;
 }
 
-    .head2{
-        text-align: center;
-      
-    }
-    .info{
-        margin-top: 100px;
-     
-    }
-    .text{
-        padding-left: 40px;
-        font-size: 20px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      
-    }
-    .text1{
-        
-        font-size: 15px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: aliceblue;
-    }
+.head2{
+    text-align: center;
+    
+}
+.info{
+    margin-top: 100px;
+    
+}
+.text{
+    padding-left: 40px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.text1{
+    
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+}
 .heading{
     display: flex;
     gap:5px;
