@@ -561,23 +561,23 @@ display: block;
     text-align: center;
 }
 .img1{
-    background-image: url("../images/dep-faculty.png");
+    background-image: url("./images/dep-faculty.png");
 }
 .img2{
-    background-image: url("../images/dep-academic.png");
+    background-image: url("./images/dep-academic.png");
 }
 .img3{
-    background-image: url("../images/dep-center.png");
+    background-image: url("./images/dep-center.png");
 }
 
 .imga{
-    background-image: url("../images/phd.jpeg");
+    background-image: url("./images/phd.jpeg");
 }
 .imgb{
-    background-image: url(../images/ug.jpeg);
+    background-image: url("./images/ug.jpeg");
 }
 .imgc{
-    background-image: url("../images/pg.jpg");
+    background-image: url("./images/pg.jpg");
     
 }
 .dept-img{
