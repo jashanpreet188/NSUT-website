@@ -599,6 +599,9 @@ display: block;
     margin-bottom: 10%;
     border: 5px white solid;
 }
+.custom-btn:hover{
+    cursor: pointer !important;
+}
 
 .admissions{
     list-style:square;
