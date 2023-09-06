@@ -149,6 +149,8 @@ marquee{
     width: 260px;
 }
 
+/* About Nsut */
+
 .About-NSUT{
     display: flex;
     flex-direction: column;
@@ -182,10 +184,66 @@ marquee{
     cursor: pointer;
 }
 
+/* Rankings */
+.rankings{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #141E46;
+    height: 320px;
+    box-sizing: border-box;
 
+}
+.rank-box{
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+    height: 200px;
+    width: 300px;
+}
+.title{
+    background-color: #b3dcff;
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+}
+.title h4{
+    margin-left: 20px;
+}
+.rank-info{
+    /* margin: 0px 10px; */
+    background-color: white;
+    position:relative;
+    left: 50px;
+    width: 300px;
+    height: 210px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.rank-info img{
+    width: auto;
+    height: 100px;
+    margin: 0 5.5px;
+}
+
+/* Videos */
+.videos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* Dropdown */
 .aboutus{
     position:relative;
     display: inline-block;
+    
 }
 
 .aboutusspan{
@@ -221,7 +279,7 @@ display: block;
     display: block;
   }
   
-  .aboutus:hover .aboutusspan {
+.aboutus:hover .aboutusspan {
     background-color:#f1f1f1;
 }
 
